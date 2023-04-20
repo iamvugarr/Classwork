@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    height: 60vh;
+}
+
+.card1{
+    width: 40%;
+    height: 200px;
+    background-color: aqua;
+}
+.card2{
+    width: 40%;
+    height: 200px;
+    background-color:chartreuse
+}
+.card3{
+    width: 40%;
+    height: 200px;
+    background-color:rgb(179, 147, 19)
+}
+.card4{
+    width: 40%;
+    height: 200px;
+    background-color:hotpink
+}
+

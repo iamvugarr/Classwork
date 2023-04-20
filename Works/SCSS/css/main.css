@@ -1,0 +1,26 @@
+.btn-default {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+.btn-primary {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.btn-secondary {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

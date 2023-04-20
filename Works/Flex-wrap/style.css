@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 40%;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 40px; */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card1{
+    width: 440px ;
+    height: 200px;
+    background-color: aqua;
+}
+.card2{
+    width: 200px ;
+    height: 200px;
+    background-color:bisque;
+}
+.card3{
+    width: 200px ;
+    height: 200px;
+    background-color:deeppink 
+}
+.card4{
+    width: 200px ;
+    height: 200px;
+    background-color:gold
+}
+.card5{
+    width: 200px ;
+    height: 200px;
+    background-color: lime;
+}

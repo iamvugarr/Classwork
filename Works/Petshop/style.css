@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shop {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  transform: scaleX(-1);
+  width: 100%;
+}
+
+.timer{
+     width: 50%;    
+}
+

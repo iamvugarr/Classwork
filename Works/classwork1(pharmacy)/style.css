@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.features{
+    background-image: url("https://themegenix.net/html/suxnix-preview/suxnix/assets/img/bg/features_bg.jpg");
+    width: 100%;
+    margin-top: 100px;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nest{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.items{
+    width: 670px;
+    height: 500px;
+    /* background-color: aqua; */
+    
+}
+
+.container{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.card{
+    flex-direction: column;
+    display: flex;
+    width: 270px;
+    height: 180px;
+    /* background-color: greenyellow; */
+    gap: 14px;
+}
+
+.image{
+    width: 500px;
+    padding-left: 60px;
+    height: 500px;
+    /* background-color:crimson ; */
+}
+
+.fas{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+}

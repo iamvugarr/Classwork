@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card1{
+    gap: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 480px;
+    
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+
+.card2{
+    gap: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 480px;
+    
+}
+.card3{
+    gap: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 480px;
+    
+}

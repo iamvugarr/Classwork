@@ -1,0 +1,14 @@
+@mixin card {
+     width: 33.33333333%;
+
+}
+
+@mixin cardBox {
+     background-color: #fff;
+     padding: 2.5rem 1.3rem;
+     border-radius: 1rem;
+     margin-bottom: 3rem;
+     text-align: center;
+}
+
+
