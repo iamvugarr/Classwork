@@ -96,30 +96,25 @@ console.log(ages);
 
 //----------------------------------------
 
-//Task 7: Stringdeki sozlerin ilk ve son herfini saxlayib ortada qalan sozlerin ise cemini birlesdirib yazmaq
-const sentence = "Every developer likes to mix kubernetes and javascript";
+//Task 7: Create invert()
+const numbers2 = [-2, 9, -8, 5];
+const invertedArr = [];
 
-let words = sentence.split(" ");
+function invert(arr) {
+  for (i = 0; i < arr.length; i++) {
+    arr[i] = arr[i] * -1;
+    invertedArr.push(arr[i]);
+  }
+  console.log(invertedArr)
+}
 
-words.forEach((elem, index) => {
-  console.log(elem[0].concat(`${elem.length - 2}`).concat(`${elem[elem.length - 1]}`));
-});
+invert(numbers2)
 
+//---------------------------------------
 
-//--------------------------------------
+//Task 8: Sozde "a" ve ya "e" herfi varsa sum artsin
 
-//Task 8: Ortalamani cixarmaq
+const names2 = [Faride, Gunel]
 
-const products = [
-  {name: 'Product 1', price: 20, category: 'Electronics'},
-  {name: 'Product 2', price: 30, category: 'Clothes'},
-  {name: 'Product 3', price: 30, category: 'Electronics'},
-  {name: 'Product 4', price: 40, category: 'Clothes'},
-  {name: 'Product 5', price: 50, category: 'Clothes'},
-  {name: 'Product 6', price: 60, category: 'Electronics'},
-  {name: 'Product 7', price: 70, category: 'Clothes'},
-  {name: 'Product 8', price: 80, category: 'Electronics'}
-]
-
-
+let sum = 0;
 
