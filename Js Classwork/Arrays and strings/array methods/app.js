@@ -114,7 +114,21 @@ invert(numbers2)
 
 //Task 8: Sozde "a" ve ya "e" herfi varsa sum artsin
 
-const names2 = [Faride, Gunel]
+const names2 = ["Faride", "Gunel"]
 
 let sum = 0;
+
+function countLetter(arr) {
+  for (i = 0; i < arr.length; i++) {
+    for (j = 0; j < arr[i].length; j++) {
+      if (arr[i][j] == "a" || arr[i][j] == "e") {
+        sum++
+      }
+    }
+  }
+  return sum
+}
+
+console.log(countLetter(names2));
+
 
